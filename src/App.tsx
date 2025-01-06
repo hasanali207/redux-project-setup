@@ -14,9 +14,7 @@ function App() {
   const handleDecrement = () => {
     dispatch(decrement())
   }
-  const handleReset = () => {
-    dispatch(reset());
-  }
+ 
 
   return (
     <div className='body-wrapper'>
